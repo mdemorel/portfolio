@@ -1,1 +1,19 @@
 // Specific CSS for your home-page
+.wrapper {
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.page-content {
+  h1 {
+    font-size: 65px;
+    font-weight: bold;
+  }
+  h2 {
+    font-size: 45px;
+    font-weight: lighter;
+    margin-top: -10px;
+    margin-bottom: 100px;
+  }
+}
