@@ -1,16 +1,18 @@
 <div class="navbar-wagon">
-  <!-- Logo -->
-  <%= link_to root_path, class: "navbar-wagon-brand" do %>
-    <%= image_tag "Learn.gif", height: 40 %>
-  <% end %>
 
   <!-- Right Navigation -->
   <div class="navbar-wagon-right hidden-xs hidden-sm">
     <!-- Links when logged in -->
-    <%= link_to "Web", "#", class: "navbar-wagon-item navbar-wagon-link" %>
-    <%= link_to "Photographie", "#", class: "navbar-wagon-item navbar-wagon-link" %>
-    <%= link_to "Projets", "#", class: "navbar-wagon-item navbar-wagon-link" %>
+      <%= link_to "Web", web_path, class: "navbar-wagon-item navbar-wagon-link" %>
+      <%= link_to "Photographie", photographie_path, class: "navbar-wagon-item navbar-wagon-link" %>
+      <%= link_to "Projets", projets_path, class: "navbar-wagon-item navbar-wagon-link" %>
+      <%= link_to "Contact", contact_path, class: "navbar-wagon-item navbar-wagon-link" %>
   </div>
+
+  <!-- Logo -->
+  <%= link_to root_path, class: "navbar-wagon-brand" do %>
+    <%= image_tag "Learn.gif", height: 40 %>
+  <% end %>
 
   <!-- Dropdown list appearing on mobile only -->
   <div class="navbar-wagon-item hidden-md hidden-lg">

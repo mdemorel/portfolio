@@ -1,2 +1,21 @@
-<h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
+<div class="wrapper" class="background-image" style="background-image: url(<%= image_path "road.jpg" %>);">
+  <div class="main-container">
+    <div class="row">
+      <div class="col-xs-12 col-md-9">
+        <h1>Explorations.</h1>
+        <h2>Marc-Antoine de Morel</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12 col-md-5">
+        <p>Explorer, c'est repousser les limites de sa curiosité. Chercher à tout moment, une découverte, un apprentissage. Avec ce projet, certes un peu fourre-tout, je cherche à partager ma quête du beau à travers mes travaux, mes photos, et mes projets. Le web est ainsi une forêt vierge où tout est encore à explorer, mes photos veulent transmettre la beauté d'un instant. Quand aux projets, n'est ce pas surtout une exploration de soi ?</p>
+      </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-12">
+          <%= link_to "☞ Commencer l'exploration", web_path, class: "btn-mini" %>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
