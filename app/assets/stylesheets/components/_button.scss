@@ -9,10 +9,23 @@
   white-space: nowrap;
   padding: 10px 15px;
   margin-right: 40px;
+
+  &:hover, &:focus {
+    color: white;
+    background-color: black;
+    text-decoration: none;
+  }
 }
 
-a:hover, a:focus {
-  color: white;
-  background-color: black;
-  text-decoration: none;
+.btn-arrow {
+  cursor: pointer;
+  position:relative;
+  display:block;
+  margin: 100px 0 0 100px;
+  width:100px;
+  height: 100px;
+  border: solid 6px #999;
+  border-radius: 100%;
+  z-index: 1;
+  transition: all .2s linear;
 }

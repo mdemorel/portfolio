@@ -31,17 +31,19 @@
 /* Basic navbar item */
 .navbar-wagon-item {
   cursor: pointer;
-  padding: 0 20px;
+  margin-right: 45px;
+  padding-top: 6px;
 }
 
 /* Navbar link */
 .navbar-wagon-link {
-  color: #00000096;
+  color: black;
   font-size: 18px;
-}
-.navbar-wagon-link:hover {
-  color: #FFA900;
-  text-decoration: none;
+  &:hover, &:focus {
+    text-decoration: none;
+    color: black;
+    box-shadow: inset 0em 0.4em black;
+  }
 }
 
 /* Dropdown menu */

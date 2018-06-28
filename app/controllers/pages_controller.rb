@@ -7,4 +7,7 @@ class PagesController < ApplicationController
 
   def projets
   end
+
+  def contact
+  end
 end
