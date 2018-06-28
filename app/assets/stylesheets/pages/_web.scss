@@ -1,0 +1,16 @@
+.content {
+  display: flex;
+}
+
+.image-banner {
+  flex: 0 0 600px;
+  height: canc100vh;
+  position: sticky !important;
+  top: 0 !important;
+}
+
+#web-image {
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
